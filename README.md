@@ -1,22 +1,56 @@
-# PROJETO - Quero os dados na minha mesa!!
 
-# CONTEXTO
-Sua equipe recebeu uma nova solicitação de projeto! Dessa vez
-para desenvolver uma pesquisa digital com a população de
-várias cidades do Brasil.
+<h2> README </h2>
+<p>Este é um simples sistema de questionário com funcionalidades básicas de coleta de dados, visualização de resultados e remoção de entradas.</p> </br>
 
-Para isso, será necessário armazenar os dados dessa pesquisa
-em um arquivo .csv para utilização em análises futuras.
+<h2>📍 Requisitos</h2> 
+</br>
 
-A pesquisa será feita a partir de um levantamento ativo, realizado
-pelos funcionários da empresa que irão sair com o projeto nas ruas
-para coletar as respostas.
+   - ``Python 3.x``
+   
+  - ``Pandas (para manipulação de dados em formato tabular)``
 
-# OBJETIVO
+<h2>📍 Utilização </h2>
+<p> Clone o repositório ou baixe os arquivos. <br>
+    Certifique-se de ter os requisitos instalados.<br>
+    Execute o arquivo principal main.py. </p> </br>
 
-Este projeto consiste na criação de uma aplicação para realização de uma pesquisa sobre o tema "O Impacto da Inteligência Artificial na vida das pessoas" . 
+<h2>📍 Funcionalidades</h2>
+<p> O sistema permite as seguintes operações: 
+  
+## 1. Coleta de Informações 
+<p>Ao iniciar o programa, você terá a opção de coletar informações respondendo a um questionário simples. Você será solicitado a fornecer sua idade, gênero e respostas para algumas perguntas.<p>
+</p> 
 
-A ideia é desenvolver uma aplicação que irá armazenar os dados recolhidos na pesquisa em um documento .csv
+## 2. Visualização dos Resultados
+<p>Você pode visualizar os resultados do questionário, que incluem as respostas coletadas até o momento, juntamente com informações como idade, gênero e data/hora da resposta.</p>
+
+## 3. Remoção de Pesquisa
+<p>Também é possível remover uma entrada específica do questionário, fornecendo o ID da entrada que você deseja excluir.</p>
+
+## 4. Saída do Programa
+<p>Você pode sair do programa digitando '00' quando solicitado.</p>
+</br>
+<h2>📍 Estrutura do Código </h2>
+<p>O código está dividido em dois arquivos:</p>
+
+ - ``main.py: Contém a função principal main() que controla o fluxo do programa e interage com a classe Questionario do módulo arquivoClasse.``
+ - ``arquivoClasse.py: Define a classe Questionario responsável por gerenciar a coleta de informações, armazenamento, visualização e remoção de dados.``
+
+<h2>Observações</h2>
+
+ - ``Os dados do questionário são armazenados em um arquivo CSV chamado questionario.csv. Se este arquivo não existir, ele será criado automaticamente.``
+ - ``O programa usa Pandas para manipulação de dados tabulares.``
+ - ``Certifique-se de fornecer entradas válidas conforme solicitado durante a execução do programa.``
+
+
+##   ✔️ Técnica utilizada: 
+- ``Python``
+
+
+# Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/114114763?v=4" width=115><br><sub>Sergio Henrique</sub>](https://github.com/Sergin03)  |  [<img src="https://github.com/nayanesenhorinha/img/blob/main/20221118_145449.jpg?raw=true" width=100><br><sub>Nayane de Souza</sub>](https://github.com/nayanesenhorinha) |  [<img src="https://avatars.githubusercontent.com/u/113216641?v=4" width=115><br><sub>Gabriel Oliveira</sub>](https://github.com/BieldoJT)  | [<img src="https://avatars.githubusercontent.com/u/114115311?v=4" width=115><br><sub>Paulo Victor</sub>](https://github.com/pevehdev) | [<img src="https://avatars.githubusercontent.com/u/114114853?v=4" width=115><br><sub>Leticia Mattos</sub>](https://github.com/LeticiaMattosSilva) |[<img src="https://github.com/images/modules/search/light.png" width=115><br><sub>Tigrinho</sub>]()
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 
 
