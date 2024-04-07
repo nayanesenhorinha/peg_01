@@ -49,7 +49,7 @@
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/114114763?v=4" width=115><br><sub>Sergio Henrique</sub>](https://github.com/Sergin03)  |  [<img src="https://github.com/nayanesenhorinha/img/blob/main/20221118_145449.jpg?raw=true" width=100><br><sub>Nayane de Souza</sub>](https://github.com/nayanesenhorinha) |  [<img src="https://avatars.githubusercontent.com/u/113216641?v=4" width=115><br><sub>Gabriel Oliveira</sub>](https://github.com/BieldoJT)  | [<img src="https://avatars.githubusercontent.com/u/114115311?v=4" width=115><br><sub>Paulo Victor</sub>](https://github.com/pevehdev) | [<img src="https://avatars.githubusercontent.com/u/114114853?v=4" width=115><br><sub>Leticia Mattos</sub>](https://github.com/LeticiaMattosSilva) |[<img src="https://github.com/images/modules/search/light.png" width=115><br><sub>Tigrinho</sub>]()
+| [<img src="https://avatars.githubusercontent.com/u/114114763?v=4" width=115><br><sub>Sergio Henrique</sub>](https://github.com/Sergin03)  |  [<img src="https://avatars.githubusercontent.com/u/159593131?v=4" width=100><br><sub>Nayane de Souza</sub>](https://github.com/nayanesenhorinha) |  [<img src="https://avatars.githubusercontent.com/u/113216641?v=4" width=115><br><sub>Gabriel Oliveira</sub>](https://github.com/BieldoJT)  | [<img src="https://avatars.githubusercontent.com/u/114115311?v=4" width=115><br><sub>Paulo Victor</sub>](https://github.com/pevehdev) | [<img src="https://avatars.githubusercontent.com/u/114114853?v=4" width=115><br><sub>Leticia Mattos</sub>](https://github.com/LeticiaMattosSilva) |[<img src="https://github.com/images/modules/search/light.png" width=115><br><sub>Tigrinho</sub>]()
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
