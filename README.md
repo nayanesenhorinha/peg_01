@@ -45,6 +45,7 @@
 
 ##   ✔️ Técnica utilizada: 
 - ``Python``
+- ``Pandas``
 
 
 # Autores
