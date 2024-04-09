@@ -1,20 +1,20 @@
 
-<h2> README </h2>
+<h2>📍 README 📍 :rocket:</h2>
 <p>Este é um simples sistema de questionário com funcionalidades básicas de coleta de dados, visualização de resultados e remoção de entradas.</p> </br>
 
-<h2>📍 Requisitos</h2> 
+<h2>📍 Requisitos :rocket: </h2> 
 </br>
 
    - ``Python 3.x``
    
   - ``Pandas (para manipulação de dados em formato tabular)``
 
-<h2>📍 Utilização </h2>
+<h2>📍 Utilização :rocket: </h2>
 <p> Clone o repositório ou baixe os arquivos. <br>
     Certifique-se de ter os requisitos instalados.<br>
     Execute o arquivo principal main.py. </p> </br>
 
-<h2>📍 Funcionalidades</h2>
+<h2>📍 Funcionalidades :rocket:</h2>
 <p> O sistema permite as seguintes operações: 
   
 ## 1. Coleta de Informações 
@@ -30,15 +30,15 @@
 ## 4. Saída do Programa
 <p>Você pode sair do programa digitando '00' quando solicitado.</p>
 </br>
-<h2>📍 Estrutura do Código </h2>
+<h2>📍 Estrutura do Código :rocket:</h2>
 <p>O código está dividido em dois arquivos:</p>
 
- - ``main.py: Contém a função principal main() que controla o fluxo do programa e interage com a classe Questionario do módulo arquivoClasse.``
+ - ``main.py: Contém a função principal main() que controla o fluxo do programa e interage com a classe questionario do módulo arquivoClasse.``
  - ``arquivoClasse.py: Define a classe Questionario responsável por gerenciar a coleta de informações, armazenamento, visualização e remoção de dados.``
 
-<h2>Observações</h2>
+<h2>Observações :rocket:</h2>
 
- - ``Os dados do questionário são armazenados em um arquivo CSV chamado questionario.csv. Se este arquivo não existir, ele será criado automaticamente.``
+ - ``Os dados do questionário são armazenados em um arquivo CSV chamado questionario.csv, se este arquivo não existir, ele será criado automaticamente.``
  - ``O programa usa Pandas para manipulação de dados tabulares.``
  - ``Certifique-se de fornecer entradas válidas conforme solicitado durante a execução do programa.``
 
@@ -46,6 +46,7 @@
 ##   ✔️ Técnica utilizada: 
 - ``Python``
 - ``Pandas``
+- ``Github``
 
 
 # Autores :rocket:
