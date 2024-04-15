@@ -67,8 +67,8 @@ class Questionario:
         self.respostas = pd.concat([self.respostas, pd.DataFrame([respostas])], ignore_index=True)
         self.num_linhas +=1
         return True
-        
-     # Função chamada para adicionar uma linha ao csv
+    
+    # Função chamada para adicionar uma linha ao csv
     def escrever_csv(self):
         if os.path.exists(self.nome_arquivo):
             df = pd.read_csv(self.nome_arquivo)
@@ -84,3 +84,27 @@ class Questionario:
         print("\nResultados do Questionário: \n")
         print(df)
         print(f'Numero de linhas: {self.num_linhas}')
+
+    # Função chamada para remover resposta do formulário
+    def remove_linha(self):
+        id = int(input('Digite o ID a ser deletado: '))
+        if id in self.respostas['ID'].tolist():
+            self.linha_backup = self.respostas[self.respostas['ID'] == id]
+            self.respostas = self.respostas[self.respostas['ID'] != id]
+            self.respostas.to_csv(self.nome_arquivo, index=False)
+            self.num_linhas -= 1
+            print(f'Linha com ID {id} removida do arquivo CSV.')
+            self.salva_backup()
+            return True
+        else:
+            print("ID não encontrado.")
+            return False
+    # Função que salva a linha no arquivo backup    
+    def salva_backup(self):
+        if os.path.exists(self.nome_arquivo_backup):
+            self.backup = pd.read_csv(self.nome_arquivo_backup)
+            new_df_backup = pd.DataFrame(self.linha_backup)
+            self.backup = pd.concat([self.backup, new_df_backup], ignore_index=True).drop_duplicates()
+        else:
+            self.backup = pd.DataFrame(self.linha_backup)
+        self.backup.to_csv(self.nome_arquivo_backup, index=False) 
