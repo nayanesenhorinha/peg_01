@@ -108,3 +108,14 @@ class Questionario:
         else:
             self.backup = pd.DataFrame(self.linha_backup)
         self.backup.to_csv(self.nome_arquivo_backup, index=False) 
+
+    def maior_id(self):
+        # Verifica no arquivo csv, na coluna ID, qual é o maior valor e atribui à variável maior_id + 1
+        # Se o arquivo csv não existir, atribui a variável maior_id o valor 1
+        if os.path.exists(self.nome_arquivo):
+            maior_id = max(self.respostas['ID'].tolist())+1
+        else:
+            maior_id=1
+        return maior_id
+    
+    
