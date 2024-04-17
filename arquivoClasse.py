@@ -17,7 +17,7 @@ class Questionario:
             "\nA IA já te ajudou em alguma situação importante? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
             "\nVocê se sentiria seguro com a IA atuando na área da saúde ou de segurança? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
             "\nVocê acredita que num futuro próximo a IA substituirá os humanos em alguns postos de trabalho? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
-            "\nVocê acredita que a IA pode desenvolver emoções e se voltar contra a humanidade? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opçãp: "
+            "\nVocê acredita que a IA pode desenvolver emoções e se voltar contra a humanidade? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: "
         ]
         # Verifica se o aquivo questionario.csv existe
         if os.path.exists(nome_arquivo):
@@ -26,7 +26,7 @@ class Questionario:
             self.num_linhas = len(self.respostas)
         else:
             # Se não existe ele cria
-            self.respostas = pd.DataFrame(columns=['ID', 'Idade', 'Gênero', 'Resposta 1', 'Resposta 2', 'Resposta 3', 'Resposta 4', 'Resposta 5', 'Data/Hora'])
+            self.respostas = pd.DataFrame(columns=['ID', 'Idade', 'Gênero', 'Resposta 1', 'Resposta 2', 'Resposta 3', 'Resposta 4', 'Resposta 5', 'Resposta 6', 'Data/Hora'])
             self.num_linhas = 0
     # Função que salva a linha no arquivo backup
     def salva_backup(self):
@@ -58,8 +58,8 @@ class Questionario:
             except ValueError as e:
                 print(e)
         while True:
-            genero = input("\nDigite seu gênero (M/F):\n ").upper()
-            if genero in ['M', 'F']:
+            genero = input("\nDigite seu gênero (M/F/N):\n ").upper()
+            if genero in ['M','F','N']:
                 break
             else:
                 print("Gênero inválido. Por favor, insira 'M' para masculino ou 'F' para feminino.")
