@@ -56,7 +56,7 @@ class Questionario:
                     raise ValueError("Idade inválida. Por favor, insira uma idade válida.")
                 break
             except ValueError as e:
-                print(e)
+                print("Idade inválida. Por favor, insira uma idade válida.")
         while True:
             genero = input("\nDigite seu gênero (M/F/N):\n ").upper()
             if genero in ['M','F','N']:
