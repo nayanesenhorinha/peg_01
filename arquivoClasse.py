@@ -16,7 +16,8 @@ class Questionario:
             "\nVocê acredita que a IA pode substituir alguma tarefa que você realiza no dia a dia? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
             "\nA IA já te ajudou em alguma situação importante? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
             "\nVocê se sentiria seguro com a IA atuando na área da saúde ou de segurança? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
-            "\nVocê acredita que num futuro próximo a IA substituirá os humanos em alguns postos de trabalho? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: "
+            "\nVocê acredita que num futuro próximo a IA substituirá os humanos em alguns postos de trabalho? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opção: ",
+            "\nVocê acredita que a IA pode desenvolver emoções e se voltar contra a humanidade? \n(1) Sim \n(2) Não \n(3) Não sei \nEscolha uma opçãp: "
         ]
         # Verifica se o aquivo questionario.csv existe
         if os.path.exists(nome_arquivo):
